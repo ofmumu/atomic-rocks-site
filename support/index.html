@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Atomic Reader Support</title>
+<style>
+  :root { --yellow: #FFC800; --ink: #111111; --bg: #ffffff; --text: #1d1d1f; --muted: #5b5b60; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #111111; --text: #f2f2f4; --muted: #a8a8ae; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+         font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif; }
+  header { background: var(--yellow); color: var(--ink); padding: 28px 20px; }
+  header h1 { margin: 0 auto; max-width: 42rem; font-size: 1.1rem; letter-spacing: .28em;
+              text-transform: uppercase; font-weight: 700; }
+  main { max-width: 42rem; margin: 0 auto; padding: 28px 20px 64px; }
+  h2 { font-size: 1.5rem; margin: 0 0 .2rem; }
+  h3 { font-size: 1.05rem; margin: 2rem 0 .3rem; }
+  p, li { margin: .5rem 0; }
+  .muted { color: var(--muted); font-size: .95rem; }
+  a { color: inherit; text-decoration-color: var(--yellow); text-decoration-thickness: 2px; }
+</style>
+</head>
+<body>
+<header><h1>Atomic Reader</h1></header>
+<main>
+  <h2>Support</h2>
+  <p class="muted">Help with Atomic Reader for iPhone and Mac</p>
+
+  <h3>Contact</h3>
+  <p>Questions, problems, or ideas: <a href="mailto:db@atomic.rocks">db@atomic.rocks</a>.
+  If something is not working, please say which device and which version of the app you are using
+  (the version is shown when the app starts) and what you expected to happen.</p>
+
+  <h3>How do I add a feed?</h3>
+  <p>On iPhone, open the drawer (the round button at the bottom left, or swipe in from the left edge)
+  and tap the plus button. On Mac, use the plus button above the sidebar. Enter the address of the
+  feed, or of a site that has one.</p>
+
+  <h3>How do I mark articles as unread?</h3>
+  <p>On iPhone, swipe an article right to toggle it between read and unread. At the end of a list,
+  swipe the "End of" row to the left to mark the read articles in that list unread, or everything
+  read in that feed, category, or All Articles. In the drawer, touch and hold a feed or category for
+  Mark All as Unread. On Mac, use the right-click menu on a feed, category, or All Articles.</p>
+
+  <h3>I marked everything as read by mistake.</h3>
+  <p>After marking a list read on iPhone, a message appears at the bottom with an Undo button. Undo
+  restores the articles as unread and takes you back to where you were.</p>
+
+  <h3>Does my library sync?</h3>
+  <p>Yes, if you are signed into iCloud on your devices. Your feeds, categories, and read and saved
+  articles sync through your own private iCloud account. Text sizes and other display settings stay
+  on each device. If articles or feeds do not appear on another device, check that you are signed
+  into the same iCloud account there and that iCloud is available, then give it a few minutes.</p>
+
+  <h3>A feed shows a problem.</h3>
+  <p>Feeds that could not be read are marked with a warning, and the list header says how many need
+  attention. Some sites change their feed address or ask you to sign in. Open the feed to see what
+  the app found. If it is a problem with the feed itself, the site's owner would need to fix it.</p>
+
+  <h3>Privacy</h3>
+  <p>Atomic Reader does not collect your personal information. Read the full
+  <a href="../privacy/">Privacy Policy</a>.</p>
+</main>
+</body>
+</html>
